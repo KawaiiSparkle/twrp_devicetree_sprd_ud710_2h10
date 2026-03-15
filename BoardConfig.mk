@@ -134,6 +134,6 @@ TARGET_RECOVERY_PIXEL_FORMAT := BGRA_8888    # Check the pixel format by running
 TARGET_SCREEN_DENSITY := 320
 
 ## Other config
-# TARGET_OTA_ASSERT_DEVICE :=   # Check the value by running the command 'getprop ro.puoduct.device' on the main system.
-# TW_ROTATION :=    # set to 0, 90, 180, or 270 depending on screen orientation.
+TARGET_OTA_ASSERT_DEVICE := IFLYTEKCB  # Check the value by running the command 'getprop ro.puoduct.device' on the main system.
+TW_ROTATION := 270   # set to 0, 90, 180, or 270 depending on screen orientation.
 # TARGET_DEVICE := 
